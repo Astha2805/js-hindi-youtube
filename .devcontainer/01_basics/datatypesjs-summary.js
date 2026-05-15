@@ -32,6 +32,26 @@ console.log(typeof outsideTemp);
 //undefined- undefined
 //boolean- boolean
 //number- number
+//symbol- symbol
 //String- string
 
 console.log(typeof anotherId)
+
+
+//MEMORY- stack(primitive), heap(non-primitive)
+let myYoutubename = "asthamohantydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let user2 = user1
+user2.email = "astha@gmail.com"
+
+console.log(user1.email)
+console.log(user2.email)
